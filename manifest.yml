@@ -1,0 +1,9 @@
+applications:
+- path: target/ndcapp.war
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: ndcapp
+  host: ndcapp
+  disk_quota: 1024M
+  buildpack: java_buildpack
